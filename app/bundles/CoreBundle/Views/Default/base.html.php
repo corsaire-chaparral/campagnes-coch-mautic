@@ -41,8 +41,13 @@
             <footer id="app-footer">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xs-6 text-muted"><?php echo $view['translator']->trans('mautic.core.copyright', ['%date%' => date('Y')]); ?></div>
-                        <div class="col-xs-6 text-muted text-right small">v<?php
+                        <div class="col-xs-10 text-muted">
+                            <?php echo $view['translator']->trans('mautic.core.copyright', ['%date%' => date('Y')]); ?>
+                          – Administration par <a href="mailto:louis@corsaire-chaparral.org">L.-O. Brassard</a>
+                      </div>
+                      
+                        
+                        <div class="col-xs-2 text-muted text-right small">v<?php
                             /** @var \Mautic\CoreBundle\Templating\Helper\VersionHelper $version */
                             $version = $view['version'];
                             echo $version->getVersion(); ?>
