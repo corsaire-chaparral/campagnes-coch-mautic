@@ -43,11 +43,10 @@ module.exports = function (grunt) {
         },
 
         // Remove prod's css files to force recompilation
-        remove: {
+        clean: {
             default_options: {
                 trace: true,
                 fileList: ['<%= mautic.rootAssets %>/app.css', '<%= mautic.rootAssets %>/libraries.css'],
-                tasks: ['remove'],
                 dest: ''
             }
         }

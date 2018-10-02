@@ -94,3 +94,7 @@
 !/themes/blank-big.png
 
 /translations
+
+# COCH dev
+deploy
+rsync.include

@@ -7,14 +7,14 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@gray-darker:            lighten(#0c0e10, 10%); // #222
-@gray-dark:              lighten(#0c0e10, 22%);   // #333
-@gray:                   lighten(#0c0e10, 35%); // #555
-@gray-light:             lighten(#0c0e10, 61.8%); // #777
-@gray-lighter:           lighten(#0c0e10, 87.5%); // #eee
+@gray-darker:            #212721;
+@gray-dark:              lighten(@gray-darker, 22%);
+@gray:                   lighten(@gray-darker, 35%);
+@gray-light:             lighten(@gray-darker, 61.8%);
+@gray-lighter:           lighten(@gray-darker, 87.5%);
 
-@brand-primary:         #4E5D9D;
-@brand-success:         #00B49C;
+@brand-primary:         #ff6a13;
+@brand-success:         #00E26D;
 @brand-info:            #35B4B9;
 @brand-warning:         #FDB933;
 @brand-danger:          #F86B4F;
