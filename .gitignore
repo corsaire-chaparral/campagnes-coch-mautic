@@ -98,3 +98,4 @@
 # COCH dev
 deploy
 rsync.include
+rsync.exclude
