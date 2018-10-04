@@ -14,7 +14,7 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title><?php echo $view['slots']->get('pageTitle', 'Info-formulaires Corsaire-Chaparral'); ?></title>
+    <title><?php echo $view['slots']->get('pageTitle', 'Corsaire-Chaparral Comunications'); ?></title>
     <meta name="robots" content="noindex, nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/x-icon" href="<?php echo $view['assets']->getUrl('media/images/favicon.ico') ?>" />
@@ -44,6 +44,7 @@
                             49.122,60.198 63.933,76.399 95.699,41.815 98.738,44.875 101.75,27.784 "/>
                             </svg>
 -->
+                            <span class="text-uppercase">Communications</span>
                         </div>
                         <div id="main-panel-flash-msgs">
                             <?php echo $view->render('MauticCoreBundle:Notification:flashes.html.php'); ?>
