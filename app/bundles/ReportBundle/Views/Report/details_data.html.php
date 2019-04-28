@@ -33,8 +33,6 @@ function getTotal($a, $f, $t, $allrows, $ac)
             return ((int) $a >= (int) $t) ? (int) $a : (int) $t;
         case 'MIN':
             return ((int) $a <= (int) $t) ? (int) $a : (int) $t;
-        case 'GROUP_CONCAT':
-            return '';
         default:
             return (int) $t;
     }
@@ -215,14 +213,18 @@ $graphContent = $view->render(
         mQuery('.datetimepicker').datetimepicker({
             format:'Y-m-d H:i:s',
             closeOnDateSelect: true,
-            validateOnBlur: false
+            validateOnBlur: false,
+            scrollMonth: false,
+            scrollInput: false
         });
     });
     mQuery(document).ready(function() {
         mQuery('.datepicker').datetimepicker({
             format:'Y-m-d',
             closeOnDateSelect: true,
-            validateOnBlur: false
+            validateOnBlur: false,
+            scrollMonth: false,
+            scrollInput: false
         });
     });
 </script>
