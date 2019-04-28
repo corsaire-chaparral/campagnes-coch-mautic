@@ -1,10 +1,10 @@
 {
     "name": "Default",
-    "description": "Mautic's default layout.",
+    "description": "Jeu de widgets par défaut",
     "widgets":
     [
         {
-            "name": "Contacts Created",
+            "name": "Contacts créés",
             "width": 100,
             "height": 330,
             "ordering": 0,
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "Page Visits",
+            "name": "Pages visitées",
             "width": 50,
             "height": 330,
             "ordering": 1,
@@ -24,21 +24,21 @@
             }
         },
         {
-            "name": "Form Submissions",
+            "name": "Soumissions de formulaires",
             "width": 50,
             "height": 330,
             "ordering": 2,
             "type": "submissions.in.time"
         },
         {
-            "name": "Recent Activity",
+            "name": "Activité récente",
             "width": 50,
             "height": 330,
             "ordering": 3,
             "type": "recent.activity"
         },
         {
-            "name": "Upcoming Emails",
+            "name": "Courriels à venir",
             "width": 50,
             "height": 330,
             "ordering": 4,
