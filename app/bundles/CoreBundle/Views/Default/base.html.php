@@ -50,7 +50,7 @@
                         <div class="col-xs-2 text-muted text-right small">v<?php
                             /** @var \Mautic\CoreBundle\Templating\Helper\VersionHelper $version */
                             $version = $view['version'];
-                            echo $version->getVersion(); ?>
+                            echo $version->getVersion(); ?>-coch2
                         </div>
                     </div>
                 </div>

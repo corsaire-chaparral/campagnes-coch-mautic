@@ -54,6 +54,16 @@ class AppKernel extends Kernel
     const EXTRA_VERSION = '';
 
     /**
+     * Extra version identifier.
+     *
+     * This constant is used to define additional version segments such as development
+     * or beta status.
+     *
+     * @const string
+     */
+    const COCH_VERSION = '2';
+
+    /**
      * @var array
      */
     private $pluginBundles = [];
@@ -320,6 +330,16 @@ class AppKernel extends Kernel
     public function getVersion()
     {
         return MAUTIC_VERSION;
+    }
+
+    /**
+     * Retrieves the version number for COCH.
+     *
+     * @return string
+     */
+    public function getCOCHVersion()
+    {
+        return COCH_VERSION;
     }
 
     /**
