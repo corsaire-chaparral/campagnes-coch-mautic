@@ -934,7 +934,7 @@ button{border:none !important}.xdsoft_noselect{-webkit-touch-callout:none;-webki
 .xdsoft_datepicker{width:256px}.xdsoft_datetimepicker
 .xdsoft_timepicker{width:58px;float:left;text-align:center;margin-left:8px;margin-top:0}.xdsoft_datetimepicker.xdsoft_rtl
 .xdsoft_timepicker{float:right;margin-right:8px;margin-left:0}.xdsoft_datetimepicker .xdsoft_datepicker.active+.xdsoft_timepicker{margin-top:8px;margin-bottom:3px}.xdsoft_datetimepicker
-.xdsoft_mounthpicker{position:relative;text-align:center}.xdsoft_datetimepicker .xdsoft_label i,
+.xdsoft_monthpicker{position:relative;text-align:center}.xdsoft_datetimepicker .xdsoft_label i,
 .xdsoft_datetimepicker .xdsoft_prev,
 .xdsoft_datetimepicker .xdsoft_next,
 .xdsoft_datetimepicker
