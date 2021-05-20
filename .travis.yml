@@ -4,11 +4,16 @@ language: php
 services:
   - mysql
 
+notifications:
+    webhooks: https://www.travisbuddy.com/
+    on_success: never
+
 php:
   - 5.6
   - 7.0
   - 7.1
   - 7.2
+  - 7.3
 
 cache:
   directories:
@@ -23,6 +28,9 @@ before_install:
 
   # turn off XDebug
   - phpenv config-rm xdebug.ini || return
+  
+  # Downgrade Composer to v1 (see https://github.com/mautic/mautic/pull/9315 for details)
+  - composer self-update --1
 
   # install dependencies in parallel
   - travis_retry composer global require hirak/prestissimo
